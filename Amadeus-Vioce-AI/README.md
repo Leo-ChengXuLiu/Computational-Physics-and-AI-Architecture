@@ -7,8 +7,8 @@ through the Gemini API and macOS native speech recognition.
 
 ```
 ┌─────────────┐    ┌──────────────────┐    ┌──────────────┐    ┌────────────┐
-│  Microphone  │───▶│ AudioProcessor   │───▶│ GeminiClient │───▶│ TTSEngine  │
-│  (PyAudio)   │    │ (SpeechRecog.)   │    │ (Gemini API) │    │ (say/pyttsx)│
+│  Microphone │───▶│ AudioProcessor   │───▶│ GeminiClient │───▶│ TTSEngine  │
+│  (PyAudio)  │    │ (SpeechRecog.)   │    │ (Gemini API) │    │(say/pyttsx)│
 └─────────────┘    └──────────────────┘    └──────────────┘    └────────────┘
                          │                        │
                          ▼                        ▼
